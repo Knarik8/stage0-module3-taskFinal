@@ -7,7 +7,7 @@ public class NumberReverter {
         int third = number % 10;
         System.out.print(third);
         System.out.print(second);
-        System.out.print(first);
+        System.out.println(first);
     }
 
     public static void main(String[] args){

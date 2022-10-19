@@ -6,7 +6,7 @@ public class DigitsSumCalculator {
         int second = number / 100 % 10;
         int third = number % 100/10;
         int fourth = number % 10;
-        System.out.print(first+second+third+fourth);
+        System.out.println(first+second+third+fourth);
     }
 
     public static void main(String[] args){
