@@ -1,6 +1,15 @@
 package lang.print.gaps.finalModuleTask;
 
 public class DigitsSumCalculator {
-    public void calculateSum(int number) {
+    public static void calculateSum(int number) {
+        int first = number / 1000;
+        int second = number / 100 % 10;
+        int third = number % 100/10;
+        int fourth = number % 10;
+        System.out.print(first+second+third+fourth);
+    }
+
+    public static void main(String[] args){
+        calculateSum(1234);
     }
 }
